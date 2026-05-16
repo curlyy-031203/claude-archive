@@ -41,7 +41,7 @@
         window.UI.setError('setup-error', 'Supabase URL 看起来不对，应该是 https://xxxxx.supabase.co');
         return;
       }
-      if (supabaseAnonKey.length < 50) {
+      if (supabaseAnonKey.length < 20) {
         window.UI.setError('setup-error', 'Supabase anon key 太短了，确认下是不是复制完整了');
         return;
       }

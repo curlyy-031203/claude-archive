@@ -1,0 +1,15 @@
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+*~
+
+# 本地配置（这个项目没有，但万一未来加了）
+config.local.js
+.env
+.env.local
